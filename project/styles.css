@@ -1,0 +1,89 @@
+body {
+    background-color: #282c34;
+  }
+  
+ img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+ }
+  
+
+  iframe {
+    width: 960px;
+    height: 540px;
+    display: block;
+    margin: 0 auto;
+  }
+  img.hyvinvointi {
+    position: absolute;
+    left: 185px;
+    top: 650px;
+  }
+  
+  .centered {
+    /*text-align: top;*/
+    height: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+  
+  }
+  .main{
+    text-align: center;
+    width: 100%;
+  }
+  
+ 
+  
+  .flex-container {
+    margin-left: 190px;
+    margin-right: 190px;
+    position: static ;
+    display: flex;
+    background-color: #282c34;
+    flex-wrap: wrap;
+  
+  
+  
+  
+  }
+  .flex-container > div {
+    background-color: #282c34;
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 25%;
+  
+  
+  }
+  
+  .img {
+  object-fit: cover;
+  width: 310px;
+  height: 310px;
+  background-color: #282c34;
+  border-radius: 50%;
+  transition: background-color 1s ease-in-out;
+      -moz-transition: background-color 1s ease-in-out;
+      -webkit-transition: background-color 1s ease-in-out;
+  padding: 5%;
+  }
+  
+  .img:hover {
+    background-color:#20242A;
+    transition-delay: .5s; background-color: #20242A;
+     transition: background-color 1s ease-in-out;
+      -moz-transition: background-color 1s ease-in-out;
+      -webkit-transition: background-color 1s ease-in-out;
+    padding: 5%;
+  }
+  
+  .text{
+    background-color: #ffffff
+  }
+  @media only screen and (max-width: 600px){
+      
+  }
